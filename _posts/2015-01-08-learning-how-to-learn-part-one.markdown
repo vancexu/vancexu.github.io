@@ -9,7 +9,7 @@ tags: [coursera, productiviy]
 
 > Whether you are an outstanding or a struggling student, "Learning How to Learn" will give you powerful mental tools that will help you learn more effectively in tough-to-master subjects. You will discover practical, immediately useful insights that will help you to more deeply master your studies.
 
-我在完成这门4周的课程之后受益匪浅，对习以为常的一些方法和观点有了更深层的认识，比如解释我们为什么会拖延简直是一个巴掌过来就给我震醒了；同时也欣喜掌握了一些新的理念和方法，比如focus and diffused两种学习模式，chunks的科学理念。总之，该课让我更会学习了。在这里分两部分记录我整理的主要内容，既是方便我复习，也希望能为大家节省上课的时间。我们的目标只有一个：**了解大脑的工作原理，以便更好的学习。**
+我在完成这门4周的课程之后受益匪浅，对习以为常的一些方法和观点有了更深层的认识，比如解释我们为什么会拖延简直是一个巴掌过来就给我震醒了；同时也欣喜掌握了一些新的理念和方法，比如focus and diffused两种学习模式，chunks的科学理念。总之，该课让我更会学习了。在这里将四周课平分成两部分记录我整理的主要内容，既是方便我复习，也希望能为大家节省上课的时间。我们的目标只有一个：**了解大脑的工作原理，以便更好的学习。**
 
 ## Week1: Focused versus Diffuse Thinking
 
@@ -89,7 +89,7 @@ Chunk中文直译是“块”，在这里是指**组合起来的有意义的知�
 
 #### Practice
 
-生成chunk的最后一步就是练习，形成context（上下文），从而巩固chunk，并建立多个指向chunk的入口。你肯定会问改怎么练？怎么才能形成context呢？
+生成chunk的最后一步就是练习，形成context（上下文），从而巩固chunk，并建立多个指向chunk的入口。那要怎么才能形成context呢？
 
 ![Context]({{ site.baseurl }}/images/2015-01-08/chunk-form-context.png){: .center-image}
 
@@ -98,4 +98,29 @@ Chunk中文直译是“块”，在这里是指**组合起来的有意义的知�
 
 ![Form Chunk Practice]({{ site.baseurl }}/images/2015-01-08/chunk-form-practice.png){: .center-image}
 
+知道怎么形成context了，那要怎么练呢？人们自然会觉得repeat（重复）学过的东西多了就记住了，形成chunk了。实际上有种更好的方法，叫recall（回想）。Recall能调动更多的记忆，使得chuck更整洁干净。在不同地方Recall好处更多，可以让你不用受环境限制。很多时候又书本在手边google在眼前，你会觉得你掌握了新的知识，但实际上是一种illusion of competence.如何避免幻觉？mini test，自己给自己小测验，它让你真正掌握知识。Recall也算是一种有效的mini test。
 
+### Chunk的好处
+
+Chunk首先让你在解题或者使用知识的时候更容易。像音乐家演奏，都以曲子为单位（chunk）来练习，所以终能完美呈现。
+
+![Chunk connected]({{ site.baseurl }}/images/2015-01-08/chunk-advantage.png){: .center-image}
+
+Chunk同时也能帮我们理解新的知识（通过被称为transfer的过程）。因为学习新知识时，人脑会神奇的连接已有的chunk，比如你已有的物理学的知识可能帮助你学习经济学的概念，语言学的东西帮你更好的理解编程等等。长此以往，你的chunk会越来越大，越来越多，越来越强。
+
+So，第二周主要介绍的是chunk：
+
+* Chunk就像是知识的雪球，聚少成多，相互关联，终成雪人。
+* 如何形成chunks? Focus, understand, practice。
+* 如何practice? Recall to form chunk, mini test yourself, also have the whole picture first to form context.
+
+此外还有：
+
+* Minimize highlighting。不要过多的画重点，因为这可能会给你一种错觉你记住了这些划过的内容（illusion of competence），提倡的是在阅读学习的过程中多提炼中心思想，多总结。Again，mini test能避免你产生illusion of competence。如果在mini test中犯错了，那是好事儿，你为了避免不再犯错，就能加深资料的理解。
+* Overlearning。从week1我们知道了短时间不停的重复学习相同的内容，帮助不大，更科学的做法是在接下来的一周每天或者每隔几天复习。但是对于我们已经掌握的东西，就没必要一直重复学习了，否则也会造成一种illusion of competence，但实际上你只掌握了最简单的那小部分。
+相对而言，**你更应该多花时间和精力在你感觉最难的部分，这叫deliberate practice**。deliberate practice往往能把顶尖和普通的学生区分开来。
+* Einstellung。你已有的想法，思路，和神经结构有时会妨碍你想出新的更好的方案。对应手段是diffuse mode。
+* 当你发现东西太多了不可能学得过来的时候：start try a little bit，好运会来。先解决第一个概念，第二个就会容易一些，后面的慢慢就都能搞定。
+
+下一篇总结week3和week4的内容。
+Happy learning :)
