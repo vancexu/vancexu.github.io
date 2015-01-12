@@ -12,3 +12,6 @@ github_username:  vancexu
 
 # Build settings
 markdown: kramdown
+
+gems: 
+  - jemoji
