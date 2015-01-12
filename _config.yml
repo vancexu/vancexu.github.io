@@ -15,3 +15,13 @@ markdown: kramdown
 
 gems: 
   - jemoji
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      is_post: true
+      author: vancexu
