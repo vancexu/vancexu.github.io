@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-This is Bowei XU (vancexu). Welcome to my personal blog :)
+This is Bowei (Vance) XU. Welcome to my personal blog :)
 
 I am now a Software Development Engineer at Expedia.Inc. On Dec 2014, I got my CS master degree at University of Michigan, Ann Arbor. Before that, I obtained my bachelor degree at Nanjing University, major in Software Engineering. 
 
