@@ -33,7 +33,7 @@ tags: [life, money]
 |**You**|Hi, I want to buy XXX car, may I speak to the internet sales manager?|
 |**Receptionist**|Sure. Hold on please...|
 |**Internet Manager**|Hello, how can I help you?|
-|**You**|Hi, I want to but a (Year/Make/Model). Do you have that car available?|
+|**You**|Hi, I want to buy a (Year/Make/Model). Do you have that car available?|
 |**Internet Manager**|Yes we do. What color and options do you like?|
 |**You**|Can you give me your email address? So I can email you my detail requirements and other questions.|
 |**Internet Manager**|Sure if you prefer to use email. My email address is ..., and my name is XXX.|
