@@ -30,15 +30,16 @@ tags: [life, money]
 
 |Person| Conversation|
 |------:|------------|
-|You|Hi, I want to buy XXX car, may I speak to the internet sales manager?|
-|Receptionist|Sure. Hold on please...|
-|Internet Manager|Hello, how can I help you?|
-|You|Hi, I want to but a (Year/Make/Model). Do you have that car available?|
-|Internet Manager|Yes we do. What color and options do you like?|
-|You|Can you give me your email address? So I can email you my detail requirements and other questions.|
-|Internet Manager|Sure if you prefer to use email. My email address is ..., and my name is XXX.|
-|You|Got it, thanks.|
+|**You**|Hi, I want to buy XXX car, may I speak to the internet sales manager?|
+|**Receptionist**|Sure. Hold on please...|
+|**Internet Manager**|Hello, how can I help you?|
+|**You**|Hi, I want to but a (Year/Make/Model). Do you have that car available?|
+|**Internet Manager**|Yes we do. What color and options do you like?|
+|**You**|Can you give me your email address? So I can email you my detail requirements and other questions.|
+|**Internet Manager**|Sure if you prefer to use email. My email address is ..., and my name is XXX.|
+|**You**|Got it, thanks.|
 
+<br>
 确保你在你的list上记下了：
 
 * Dealership Name
@@ -47,31 +48,39 @@ tags: [life, money]
 
 打电话的时候不用紧张，大多数人都不会当场抓住你进行高压推销，他们也知道你比较懂行。一旦他们非要跟你电话讨论，你就说你short on time没时间，必须用email。他们要是千方百计不合作，那就pass他家。
 
-Tip：一般每月下半旬他们为了月绩会更积极。周二周三周四他们相对不忙，也比较有时间回邮件。
+**Tip：**一般每月下半旬他们为了月绩会更积极。周二周三周四他们相对不忙，也比较有时间回邮件。
 
 接着，用下面的模版给dealer发邮件：
 
-```
+<div>
+<p>
 Hello [INSERT NAME OF INTERNET MANAGER],
-
+</p>
+<p>
 As we discussed on the phone, I'd like to purchase a [YEAR MAKE MODEL TRIM] as soon as possible.  I've already test-driven the vehicle and know exactly what I want.  I'm getting pricing from several local dealers and will go with whoever offers me the best deal. To make it a fair comparison, please bid on the amount over or under invoice you are willing to sell this vehicle. 
-
+</p>
+<p>
 If I buy from you, I'm assuming I will be shown a copy of the factory invoice and I can choose from any vehicle of this particular trim you have on your lot.  If you don't have the vehicle on your lot, please let me know the closest match you have.  
-
+</p>
+<p>
 I'm somewhat flexible with options and colors, however, I do prefer [LIST ANY OPTIONS OR COLORS YOU WANT OR DON'T WANT].
-
+</p>
+<p>
 Please provide the following in your bid:
+</p>
 
-1. Price in relation to factory invoice
-2. List any additional fees I will have to pay that is not listed on the invoice (example:  doc fee, dealer prep, etc)
-3. Are there any dealer add-ons I will be required to pay (pinstripes, etc)
-4. List any rebates or incentives currently offered on this vehicle including loyalty and conquest bonuses (do not include this in the price of the bid)
-5. List the OTD (Out the Door) Price including taxes, incentives, and all fees
+1. Price in relation to factory invoice<br>
+2. List any additional fees I will have to pay that is not listed on the invoice (example:  doc fee, dealer prep, etc)<br>
+3. Are there any dealer add-ons I will be required to pay (pinstripes, etc)<br>
+4. List any rebates or incentives currently offered on this vehicle including loyalty and conquest bonuses (do not include this in the price of the bid)<br>
+5. List the OTD (Out the Door) Price including taxes, incentives, and all fees<br>
 
-thank you, I look forward to your response.
+<p>Thank you, I look forward to your response.</p>
 
-[YOUR NAME]
-```
+<p>[YOUR NAME]</p>
+</div>
+{: style="padding: 16px; background-color: #F0F8FF; border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 4px"}
+<br>
 
 别忘了改方括号里的内容，每个dealer的名字也别忘了改。解释一下，invoice是dealer从厂商进货的价钱（一般dealer真实pay给厂商的钱还会小于这个数）。MSRP是零售价。OTD（out the door）是所有费用加起来你真实需要付的全款。
 
@@ -80,54 +89,71 @@ thank you, I look forward to your response.
 
 这时候，你可以在第二天给没有回邮件的人再发一封下面的邮件，因为有的人可能真的是忙忘了，有的人是懒。
 
-```
-Hi [INSERT NAME OF INTERNET MANAGER],
-
+<div>
+<p>
+Hi [INSERT NAME OF INTERNET MANAGER], 
+</p>
+<p>
 I spoke to you on the phone yesterday and followed up with an email to request a price on a [YEAR MAKE MODEL TRIM].
+</p>
+<p>
 I haven't received a bid from you yet.  Sorry for the rush, but I want to get this deal done ASAP.    
-
+</p>
+<p>
 As stated in my previous email, I'll need the following info to make a decision:
+</p>
+1. Price above or below dealer invoice<br>
+2. List any additional fees I will have to pay that is not listed on the invoice (example:  doc fee, dealer prep, etc)<br>
+3. Are there any dealer add-ons I will be required to pay (pinstripes, etc)<br>
+4. List any rebates or incentives currently offered on this vehicle including loyalty and conquest bonuses (do not include this in the price of the bid)<br>
+5. List the OTD (Out the Door) Price including taxes, incentives, and all fees<br><br>
 
-1. Price above or below dealer invoice
-2. List any additional fees I will have to pay that is not listed on the invoice (example:  doc fee, dealer prep, etc)
-3. Are there any dealer add-ons I will be required to pay (pinstripes, etc)
-4. List any rebates or incentives currently offered on this vehicle including loyalty and conquest bonuses (do not include this in the price of the bid)
-5. List the OTD (Out the Door) Price including taxes, incentives, and all fees
+<p>Thank you, </p>
 
-thank you, 
-
-[YOUR NAME]
-```
-
+<p>[YOUR NAME]</P>
+</div>
+{: style="padding: 16px; background-color: #F0F8FF; border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 4px"}
+<br>
 正常的话，你应该能至少收到一个比之前网上估价更低的price了。如果真没有，是不是你发的邮件不够多？还有就是你可能得到的回复没有一条一条的回答你的问题，直接飞过来个price或者OTD，你自己用一个标准记好就行，比如都用OTD。
 
 接着用你当前拿到的最低的price按照报价由高往低的顺序发回给dealer(包括始终没有动静的dealer)，让他们bid。你发现了，这就是买车砍价的原理：**让卖家通过竞价的方式提供你最低价，而不是你跑道一家dealer里各种软磨硬泡**。
 
-```
+<div>
+<p>
 Hi [INSERT NAME OF INTERNET MANAGER],
-
+</p>
+<p>
 Thanks for your response. / I haven't received a bid from you yet.  Sorry for the rush, but I want to get this deal done ASAP.   
-
-The lowest price I get is $XX,XXX plus tax, can you beat it?
-
-Thank you,
-[YOUR NAME]
-
-```
+</p>
+<p>
+The lowest price I get is $XX,XXX plus tax, can you beat 
+</p>
+<p>Thank you,</p>
+<p>[YOUR NAME]</p>
+</div>
+{: style="padding: 16px; background-color: #F0F8FF; border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 4px"}
+<br>
 
 从距离远的dealer开始bid，你会得到dealer报的越来越低的价格，慢慢就会有dealder退出了，你大概就知道dealer普遍能接受的价格底线了。用这个底线价格去问离你近的local dealer能不能beat。
 
-```
+<div>
+<p>
 Hi [INSERT NAME OF INTERNET MANAGER],
-
+</p>
+<p>
 Thanks so much for the offer!
-
+</p>
+<p>
 You had quoted me at $XX,XXX, The best offer I got was $XX,XXX.
+</p>
+<p>
 Now, before you beat that bid, I did want to let you know that I'll be giving a 100% score on the Customer Satisfaction Survey. Also, if I buy from you, I will be servicing my car at your dealership. Taking that into account, what's the best price you can offer if I come down and purchase today? Please list the the price, the doc fee etc, and the OTD (Out the Door) Price.
-
-Thank you, I look forward to your response.
-[YOUR NAME]
-```
+</p>
+<p>Thank you, I look forward to your response.</p>
+<p>[YOUR NAME]</p>
+</div>
+{: style="padding: 16px; background-color: #F0F8FF; border-style: solid; border-width: 1px; border-color: lightgrey; border-radius: 4px"}
+<br>
 
 上面的模版里面用两个小trick来诱惑dealer给低价：
 
@@ -143,9 +169,9 @@ __I'm very close to making the purchase, and I do prefer working with your deale
 
 关于付款。我现金不够所以选择贷款买车，本来厂家是有0.9%的ARP贷款的，但是我因为砍价挺猛，dealer不能给我这个优惠，而且即使dealer给我，厂商合作的chase银行因为我的身份问题（OPT显示只会在美一年）可能也不会最终给我，所以我干脆直接从我学校的credit union贷款，2.24%的ARP我觉得也能接受。
 
-希望这篇文章能对你有点帮助，预祝购车一些顺利！
+希望这篇文章能对你有点帮助，预祝购车一切顺利！
 
-Reference：
+**Reference：**
 
 * [http://www.realcartips.com/guide/newcars.shtml](http://www.realcartips.com/guide/newcars.shtml)
 * [http://www.edmunds.com/car-buying/10-steps-to-buying-a-new-car.html](http://www.edmunds.com/car-buying/10-steps-to-buying-a-new-car.html) 

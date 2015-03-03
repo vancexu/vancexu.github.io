@@ -208,3 +208,21 @@ pre {
     }
 }
 
+/**
+ * Tables
+ */
+table{
+    border-spacing: 0;
+    border:1px solid lightgrey;
+    border-radius: 4px;
+}
+
+th{
+    border:1px dotted lightgrey;
+    padding: 8px;
+}
+
+td{
+    border:1px dotted lightgrey;
+    padding: 8px;
+}
