@@ -12,5 +12,6 @@ I am an active learner, love coding, taking open courses and reading. Always int
 
 This blog will be used to share my knowledge on Computer Science, Self Improvement, Phychology etc. I hope the blog can help me better understand what I learned, make contributions to readers personal growth, and make new friends. The blog is powered by [Jekyll](http://jekyllrb.com/).
 
-Reach me via [email](mailto:xuboweinju@gmail.com), [twitter](https://twitter.com/vancexu), or [github](https://github.com/vancexu).
-
+Reach me via [email](mailto:xuboweinju@gmail.com), [twitter](https://twitter.com/vancexu), or [github](https://github.com/vancexu).  
+See my open course study activities: [@mooc.guokr/vancexu](http://mooc.guokr.com/user/1577057462/)  
+See my reading activities: [@douban/vancexu](http://www.douban.com/people/vancexu/)
