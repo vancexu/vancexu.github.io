@@ -4,7 +4,7 @@ title:  "[Algs4] Union Find"
 date:   2015-07-13 
 tags: [mooc, algorithm]
 ---
-This post introduces a simple data structure called **Union Find**.
+This post introduces a simple data structure called **Union Find**. If you wonder how Facebook/LinkedIn know whether people A and B may know each other through some common friends, you can figure it out by reading on :)
 
 ## Problem: Dynamic Connectivity
 Given a set of N objects, we want to:  
