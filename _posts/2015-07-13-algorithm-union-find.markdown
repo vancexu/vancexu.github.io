@@ -71,23 +71,23 @@ Quick Find Example
 
 {% highlight java %} 
 public class QuickFindUF {
-	private int[] id; // id[i] is component id for object i
-	public QuickFindUF(int N) {
-		id = new int[N];
-		for (int i = 0; i < N; ++i)
-			id[i] = i;
-	}
+    private int[] id; // id[i] is component id for object i
+    public QuickFindUF(int N) {
+        id = new int[N];
+        for (int i = 0; i < N; ++i)
+            id[i] = i;
+    }
 	
-	public boolean connected(int p, int q) {
-		return id[p] == id[q];
-	}
+    public boolean connected(int p, int q) {
+	    return id[p] == id[q];
+    }
 	
-	public void union(int p, int q) {
-		int pid = id[p];
-		int qid = id[q];
-		for (int i = 0; i < id.length; ++i)
-			if (id[i] == pid) id[i] = qid;
-	}
+    public void union(int p, int q) {
+        int pid = id[p];
+        int qid = id[q];
+        for (int i = 0; i < id.length; ++i)
+            if (id[i] == pid) id[i] = qid;
+    }
 }
 {% endhighlight %}
 
@@ -110,29 +110,29 @@ Quick Union Example
 
 {% highlight java %} 
 public class QuickUnionUF {
-	private int[] id; // id[i] is parent of i
+    private int[] id; // id[i] is parent of i
 	
-	public QuickUnionUF(int N) {
-		id = new int[N];
-		for (int i = 0; i < N; ++i)
-			id[i] = 1;
-	}
+    public QuickUnionUF(int N) {
+        id = new int[N];
+        for (int i = 0; i < N; ++i)
+            id[i] = 1;
+    }
 	
-	private int root(int i) {
-		while (i != id[i]) 
-			i = id[i];
-		return i;
-	}
+    private int root(int i) {
+        while (i != id[i]) 
+            i = id[i];
+        return i;
+    }
 	
-	public boolean connected(int p, int q) {
-		return root(p) == root(q);
-	}
+    public boolean connected(int p, int q) {
+        return root(p) == root(q);
+    }
 	
 	public void union(int p, int q) {
-		int i = root(p);
-		int j = root(q);
-		id[i] = j;
-	}
+        int i = root(p);
+        int j = root(q);
+        id[i] = j;
+    }
 }
 {% endhighlight %}
 
@@ -174,11 +174,11 @@ Two implementations:
 
 {% highlight java %} 
 private int root(int i) {
-	while (i != id[i]) {
-		id[i] = id[id[i]]; // only one extra line of code
-		i = id[i];
-	}
-	return i;
+    while (i != id[i]) {
+        id[i] = id[id[i]]; // only one extra line of code
+        i = id[i];
+    }
+    return i;
 }
 {% endhighlight %}
 
