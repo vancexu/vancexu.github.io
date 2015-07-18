@@ -6,6 +6,11 @@ tags: [mooc, algorithm]
 ---
 This post introduces a simple data structure called **Union Find**. If you wonder how Facebook/LinkedIn learn whether people A and B may know each other through some common friends, you can figure it out by reading on :)
 
+**Table of Content**
+
+* TOC
+{:toc}
+
 ## Problem: Dynamic Connectivity
 Given a set of N objects, we want to:  
 1. **Union command**: connect two objects.  
