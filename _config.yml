@@ -6,7 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Personal bolg of Bowei Xu (vancexu). 
   Share about information technologies, self improvement, open courses and books. 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://vancexu.github.com" # the base hostname & protocol for your site
 twitter_username: vancexu
 github_username:  vancexu
 
@@ -25,3 +25,7 @@ defaults:
       layout: post
       is_post: true
       author: vancexu
+
+# Markdown settings
+kramdown:
+  input: GFM
