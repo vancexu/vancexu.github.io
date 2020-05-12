@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Intro to Union-Find Data Structure"
-date:   2015-07-13 
+date:   2015-07-13
 tags: [mooc, algorithm]
 ---
 This post introduces a simple data structure called **Union Find**. If you wonder how Facebook/LinkedIn learn whether people A and B may know each other through some common friends, you can figure it out by reading on :)
@@ -12,8 +12,8 @@ This post introduces a simple data structure called **Union Find**. If you wonde
 {:toc}
 
 ## Problem: Dynamic Connectivity
-Given a set of N objects, we want to:  
-1. **Union command**: connect two objects.  
+Given a set of N objects, we want to:
+1. **Union command**: connect two objects.
 2. **Find/connected query**: is there a path connecting the two objects?
 
 As shown in the following GIF, there are N=10 objects, we do 5 unions and then check object[0] and object[7] are not connected, object[8] and object[9] are connected. After 4 more unions, object[0] and object[7] are connected.
@@ -28,11 +28,11 @@ Below is another example. Obviously, it's hard for human to figure out whether p
 
 As you can guess, there are many applications on this:
 
-* Friends in a social network  
-* Pixels in a digital photo  
-* Computers in a network  
-* Transistors in a computer chip  
-* Metallic sites in a coposite system  
+* Friends in a social network
+* Pixels in a digital photo
+* Computers in a network
+* Transistors in a computer chip
+* Metallic sites in a coposite system
 
 ### Model Building
 
@@ -46,9 +46,9 @@ We assume connectivity is an equivalence relation, which is reflexive, symmetric
 Then we define **Connected Components**: Maximal set of objects that are mutually connected. Example below.
 
 ![Connected Component]({{ site.baseurl }}/images/2015-07-13/connected-component.png){: .center-image}
- 
-### Union-find Data Type (API) 
-Our goal is: Design efficient data structure for union-find.  
+
+### Union-find Data Type (API)
+Our goal is: Design efficient data structure for union-find.
 
 * Number of objects N can be huge
 * Number of operations M can be huge
@@ -60,9 +60,9 @@ Let's figure out how to implement Union-find next.
 
 ## Quick Find
 
-How would you represent the data structure? 
+How would you represent the data structure?
 
-One way we can do is: 
+One way we can do is:
 
 * use Integer array id[] of lenght N
 * p and q are connected iff (if and only if) they have the same id
@@ -74,7 +74,7 @@ Quick Find Example
 
 ### Java Implementation
 
-{% highlight java %} 
+{% highlight java %}
 public class QuickFindUF {
     private int[] id; // id[i] is component id for object i
     public QuickFindUF(int N) {
@@ -82,11 +82,11 @@ public class QuickFindUF {
         for (int i = 0; i < N; ++i)
             id[i] = i;
     }
-	
+
     public boolean connected(int p, int q) {
 	    return id[p] == id[q];
     }
-	
+
     public void union(int p, int q) {
         int pid = id[p];
         int qid = id[q];
@@ -113,26 +113,26 @@ Quick Union Example
 
 ### Java Implementation
 
-{% highlight java %} 
+{% highlight java %}
 public class QuickUnionUF {
     private int[] id; // id[i] is parent of i
-	
+
     public QuickUnionUF(int N) {
         id = new int[N];
         for (int i = 0; i < N; ++i)
-            id[i] = 1;
+            id[i] = i;
     }
-	
+
     private int root(int i) {
-        while (i != id[i]) 
+        while (i != id[i])
             i = id[i];
         return i;
     }
-	
+
     public boolean connected(int p, int q) {
         return root(p) == root(q);
     }
-	
+
 	public void union(int p, int q) {
         int i = root(p);
         int j = root(q);
@@ -155,7 +155,7 @@ Is there a way to avoid tall trees? Sure there is -- weighted quick-union:
 
 To implement that, we need to define an extra array sz[i] to count number of objects in the tree rooted at i. When do union operation, we link root of smaller tree to root of larger tree, and update the sz[] array.
 
-{% highlight java %} 
+{% highlight java %}
 int i = root(p);
 int j = root(q);
 if (i == j) return;
@@ -177,7 +177,7 @@ Two implementations:
 * Simpler one-pass variant: make every other node in path point to its grandparent (thereby halving path length).
 
 
-{% highlight java %} 
+{% highlight java %}
 private int root(int i) {
     while (i != id[i]) {
         id[i] = id[id[i]]; // only one extra line of code
@@ -189,6 +189,6 @@ private int root(int i) {
 
 ## Summary
 
-To solve the Dynamic Connectivity problem, we introduce union-find data structure. The quick-find implementation support fast (O(1)) find operation, but very slow union. The quick-union implementation is slow on both find and union, but we can use weighting and path compression to achieve O(lgN) cost on both find and union. 
+To solve the Dynamic Connectivity problem, we introduce union-find data structure. The quick-find implementation support fast (O(1)) find operation, but very slow union. The quick-union implementation is slow on both find and union, but we can use weighting and path compression to achieve O(lgN) cost on both find and union.
 
 In next post, let's use union-find data structure to solve some problems.
