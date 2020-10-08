@@ -1,8 +1,6 @@
 ---
-layout: post
-title:  "Intro to Union-Find Data Structure, Exercises"
-date:   2015-07-21 
-tags: [mooc, algorithm, exercises]
+redirect:   https://boweixu.me/posts/intro-to-union-find-data-structure-exercise/
+layout:     redirect
 ---
 
 Let's use union-find data structure to solve some problems in this post. (To learn what is union-find, please read [previous post](http://vancexu.github.io/2015/07/13/intro-to-union-find-data-structure.html).)

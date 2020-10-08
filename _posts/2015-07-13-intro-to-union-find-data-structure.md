@@ -1,9 +1,8 @@
 ---
-layout: post
-title:  "Intro to Union-Find Data Structure"
-date:   2015-07-13
-tags: [mooc, algorithm]
+redirect:   https://boweixu.me/posts/intro-to-union-find-data-structure/
+layout:     redirect
 ---
+
 This post introduces a simple data structure called **Union Find**. If you wonder how Facebook/LinkedIn learn whether people A and B may know each other through some common friends, you can figure it out by reading on :)
 
 **Table of Content**

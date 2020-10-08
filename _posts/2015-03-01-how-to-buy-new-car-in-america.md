@@ -1,8 +1,6 @@
 ---
-layout: post
-title:  "如何在美国买新车"
-date:   2015-03-01 
-tags: [life, money]
+redirect:   https://boweixu.me/posts/how-to-buy-new-car-in-america/
+layout:     redirect
 ---
 
 本文写给留美刚毕业或者刚念书的想买新车的朋友们，主要介绍**买车的流程以及如何砍价**，希望自己从网上和实战中总结出的一点点经验能帮助大家省点心。

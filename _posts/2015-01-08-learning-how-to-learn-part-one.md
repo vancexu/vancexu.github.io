@@ -1,8 +1,6 @@
 ---
-layout: post
-title:  "Learning How to Learn, Part 1"
-date:   2015-01-08 
-tags: [coursera, productiviy]
+redirect:   https://boweixu.me/posts/learning-how-to-learn-part-one/
+layout:     redirect
 ---
 
 [Learning How to Learn: Powerful mental tools to help you master tough subjects][LHTL] 是 University of California, San Diego 在[coursera][coursera]上开放的一门公开课，

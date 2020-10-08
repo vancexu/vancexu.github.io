@@ -1,9 +1,8 @@
 ---
-layout: post
-title:  "Learning How to Learn, Part 2"
-date:   2015-02-02 
-tags: [coursera, productiviy]
+redirect:   https://boweixu.me/posts/learning-how-to-learn-part-two/
+layout:     redirect
 ---
+
 通过[前两周的课程][part1]，我们主要了解了人脑的两种思考模式(focused mode和diffuse mode)，以及chunk的概念，养成(focus, understand, pracitce)，和好处。接下来本篇将总结课程第三和第四周的主要内容，主要关于**拖延症，记忆，和应试技巧**。
 
 ## Week3: Procrastination and Memory
